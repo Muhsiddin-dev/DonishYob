@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-inter", 
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: 'DonishYob',
     images: [
       {
-        url: "https://donishyob.com/donishyob.png",
+        url: "https://donishyob.vercel.app/donishyob.png",
         width: 1200,
         height: 630,
         alt: "Намуди зоҳирии DonishYob",
@@ -43,17 +43,17 @@ export const metadata: Metadata = {
     locale: 'tg_TJ',
     type: 'website',
   },
-  
+
   twitter: {
     card: 'summary_large_image',
     title: 'DonishYob — Научная онлайн библиотека',
     description: 'Научная библиотека с широким выбором учебных материалов.',
-    images: ['https://donishyob.com/donishyob.png'],
+    images: ['https://donishyob.vercel.app/donishyob.png'],
   },
   icons: {
-    icon: "https://donishyob.com/donishyob.png",
-    shortcut: "https://donishyob.com/donishyob.png",
-    apple: "https://donishyob.com/donishyob.png",
+    icon: "https://donishyob.vercel.app/donishyob.png",
+    shortcut: "https://donishyob.vercel.app/donishyob.png",
+    apple: "https://donishyob.vercel.app/donishyob.png",
   },
   robots: {
     index: true,
