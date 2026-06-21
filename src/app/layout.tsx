@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NODE_ENV === 'production'
-      ? 'https://donishyob.com'
+      ? 'https://donishyob.vercel.app'
       : 'http://localhost:3000'
   ),
   title: 'DonishYob — Научная онлайн библиотека китобҳо',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'DonishYob — Поиск научных материалов',
     description: 'Научная библиотека с широким выбором учебных материалов.',
-    url: 'https://donishyob.com',
+    url: 'https://donishyob.vercel.app',
     siteName: 'DonishYob',
     images: [
       {

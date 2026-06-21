@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://donishyob.com/sitemap.xml',
+    sitemap: 'https://donishyob.vercel.app/sitemap.xml',
   };
 }

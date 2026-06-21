@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Дар бораи мо - DonishYob',
     description: 'Научная библиотека DonishYob',
-    url: 'https://donishyob.com/about',
+    url: 'https://donishyob.vercel.app/about',
     siteName: 'DonishYob',
   },
 };

@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://donishyob.com';
+  const baseUrl = 'https://donishyob.vercel.app';
 
   const staticRoutes = [
     '',
